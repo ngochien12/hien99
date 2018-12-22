@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "d10_layout", "d10_layout.phpproj", "{27E8940C-41FE-4E31-B7EA-F79E0EE0D93E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27E8940C-41FE-4E31-B7EA-F79E0EE0D93E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27E8940C-41FE-4E31-B7EA-F79E0EE0D93E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F799CC1-F892-4DEE-8771-FA451420C77A}
+	EndGlobalSection
+EndGlobal

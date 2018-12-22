@@ -1,0 +1,206 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>d10_layout</Name>
+    <ProjectGuid>{27e8940c-41fe-4e31-b7ea-f79e0ee0d93e}</ProjectGuid>
+    <RootNamespace>
+    </RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="assets\bootstrap-3.3.7-dist\css\bootstrap-theme.css" />
+    <Compile Include="assets\bootstrap-3.3.7-dist\css\bootstrap-theme.css.map" />
+    <Compile Include="assets\bootstrap-3.3.7-dist\css\bootstrap-theme.min.css" />
+    <Compile Include="assets\bootstrap-3.3.7-dist\css\bootstrap-theme.min.css.map" />
+    <Compile Include="assets\bootstrap-3.3.7-dist\css\bootstrap.css" />
+    <Compile Include="assets\bootstrap-3.3.7-dist\css\bootstrap.css.map" />
+    <Compile Include="assets\bootstrap-3.3.7-dist\css\bootstrap.min.css" />
+    <Compile Include="assets\bootstrap-3.3.7-dist\css\bootstrap.min.css.map" />
+    <Compile Include="assets\bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.eot" />
+    <Compile Include="assets\bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.svg" />
+    <Compile Include="assets\bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.ttf" />
+    <Compile Include="assets\bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.woff" />
+    <Compile Include="assets\bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.woff2" />
+    <Compile Include="assets\bootstrap-3.3.7-dist\js\bootstrap.js" />
+    <Compile Include="assets\bootstrap-3.3.7-dist\js\bootstrap.min.js" />
+    <Compile Include="assets\bootstrap-3.3.7-dist\js\npm.js" />
+    <Compile Include="assets\jquery-3.1.1.min.js" />
+    <Compile Include="imgs\sp\1\1.jpg" />
+    <Compile Include="imgs\sp\1\1_thumbs.jpg" />
+    <Compile Include="imgs\sp\1\2.jpg" />
+    <Compile Include="imgs\sp\1\2_thumbs.jpg" />
+    <Compile Include="imgs\sp\1\main.jpg" />
+    <Compile Include="imgs\sp\1\main_thumbs.jpg" />
+    <Compile Include="imgs\sp\10\main.jpg" />
+    <Compile Include="imgs\sp\10\main_thumbs.jpg" />
+    <Compile Include="imgs\sp\11\1.jpg" />
+    <Compile Include="imgs\sp\11\1_thumbs.jpg" />
+    <Compile Include="imgs\sp\11\main.jpg" />
+    <Compile Include="imgs\sp\11\main_thumbs.jpg" />
+    <Compile Include="imgs\sp\12\1.jpg" />
+    <Compile Include="imgs\sp\12\1_thumbs.jpg" />
+    <Compile Include="imgs\sp\12\main.jpg" />
+    <Compile Include="imgs\sp\12\main_thumbs.jpg" />
+    <Compile Include="imgs\sp\13\1.jpg" />
+    <Compile Include="imgs\sp\13\1_thumbs.jpg" />
+    <Compile Include="imgs\sp\13\main.jpg" />
+    <Compile Include="imgs\sp\13\main_thumbs.jpg" />
+    <Compile Include="imgs\sp\14\1.jpg" />
+    <Compile Include="imgs\sp\14\1_thumbs.jpg" />
+    <Compile Include="imgs\sp\14\main.jpg" />
+    <Compile Include="imgs\sp\14\main_thumbs.jpg" />
+    <Compile Include="imgs\sp\15\main.jpg" />
+    <Compile Include="imgs\sp\15\main_thumbs.jpg" />
+    <Compile Include="imgs\sp\16\1.jpg" />
+    <Compile Include="imgs\sp\16\1_thumbs.jpg" />
+    <Compile Include="imgs\sp\16\main.jpg" />
+    <Compile Include="imgs\sp\16\main_thumbs.jpg" />
+    <Compile Include="imgs\sp\17\1.jpg" />
+    <Compile Include="imgs\sp\17\1_thumbs.jpg" />
+    <Compile Include="imgs\sp\17\main.jpg" />
+    <Compile Include="imgs\sp\17\main_thumbs.jpg" />
+    <Compile Include="imgs\sp\18\main.jpg" />
+    <Compile Include="imgs\sp\18\main_thumbs.jpg" />
+    <Compile Include="imgs\sp\19\main.jpg" />
+    <Compile Include="imgs\sp\19\main_thumbs.jpg" />
+    <Compile Include="imgs\sp\2\1.jpg" />
+    <Compile Include="imgs\sp\2\1_thumbs.jpg" />
+    <Compile Include="imgs\sp\2\main.jpg" />
+    <Compile Include="imgs\sp\2\main_thumbs.jpg" />
+    <Compile Include="imgs\sp\20\1.jpg" />
+    <Compile Include="imgs\sp\20\1_thumbs.jpg" />
+    <Compile Include="imgs\sp\20\2.jpg" />
+    <Compile Include="imgs\sp\20\2_thumbs.jpg" />
+    <Compile Include="imgs\sp\20\main.jpg" />
+    <Compile Include="imgs\sp\20\main_thumbs.jpg" />
+    <Compile Include="imgs\sp\21\1.jpg" />
+    <Compile Include="imgs\sp\21\1_thumbs.jpg" />
+    <Compile Include="imgs\sp\21\2.jpg" />
+    <Compile Include="imgs\sp\21\2_thumbs.jpg" />
+    <Compile Include="imgs\sp\21\3.jpg" />
+    <Compile Include="imgs\sp\21\3_thumbs.jpg" />
+    <Compile Include="imgs\sp\21\main.jpg" />
+    <Compile Include="imgs\sp\21\main_thumbs.jpg" />
+    <Compile Include="imgs\sp\22\1.jpg" />
+    <Compile Include="imgs\sp\22\1_thumbs.jpg" />
+    <Compile Include="imgs\sp\22\main.jpg" />
+    <Compile Include="imgs\sp\22\main_thumbs.jpg" />
+    <Compile Include="imgs\sp\23\main.jpg" />
+    <Compile Include="imgs\sp\23\main_thumbs.jpg" />
+    <Compile Include="imgs\sp\24\1.jpg" />
+    <Compile Include="imgs\sp\24\1_thumbs.jpg" />
+    <Compile Include="imgs\sp\24\main.jpg" />
+    <Compile Include="imgs\sp\24\main_thumbs.jpg" />
+    <Compile Include="imgs\sp\25\1.jpg" />
+    <Compile Include="imgs\sp\25\1_thumbs.jpg" />
+    <Compile Include="imgs\sp\25\main.jpg" />
+    <Compile Include="imgs\sp\25\main_thumbs.jpg" />
+    <Compile Include="imgs\sp\26\1.jpg" />
+    <Compile Include="imgs\sp\26\1_thumbs.jpg" />
+    <Compile Include="imgs\sp\26\main.jpg" />
+    <Compile Include="imgs\sp\26\main_thumbs.jpg" />
+    <Compile Include="imgs\sp\27\1.jpg" />
+    <Compile Include="imgs\sp\27\1_thumbs.jpg" />
+    <Compile Include="imgs\sp\27\2.jpg" />
+    <Compile Include="imgs\sp\27\2_thumbs.jpg" />
+    <Compile Include="imgs\sp\27\main.jpg" />
+    <Compile Include="imgs\sp\27\main_thumbs.jpg" />
+    <Compile Include="imgs\sp\28\1.jpg" />
+    <Compile Include="imgs\sp\28\1_thumbs.jpg" />
+    <Compile Include="imgs\sp\28\main.jpg" />
+    <Compile Include="imgs\sp\28\main_thumbs.jpg" />
+    <Compile Include="imgs\sp\29\1.jpg" />
+    <Compile Include="imgs\sp\29\1_thumbs.jpg" />
+    <Compile Include="imgs\sp\29\main.jpg" />
+    <Compile Include="imgs\sp\29\main_thumbs.jpg" />
+    <Compile Include="imgs\sp\3\main.jpg" />
+    <Compile Include="imgs\sp\3\main_thumbs.jpg" />
+    <Compile Include="imgs\sp\30\1.jpg" />
+    <Compile Include="imgs\sp\30\1_thumbs.jpg" />
+    <Compile Include="imgs\sp\30\main.jpg" />
+    <Compile Include="imgs\sp\30\main_thumbs.jpg" />
+    <Compile Include="imgs\sp\4\1.jpg" />
+    <Compile Include="imgs\sp\4\1_thumbs.jpg" />
+    <Compile Include="imgs\sp\4\main.jpg" />
+    <Compile Include="imgs\sp\4\main_thumbs.jpg" />
+    <Compile Include="imgs\sp\5\1.jpg" />
+    <Compile Include="imgs\sp\5\1_thumbs.jpg" />
+    <Compile Include="imgs\sp\5\main.jpg" />
+    <Compile Include="imgs\sp\5\main_thumbs.jpg" />
+    <Compile Include="imgs\sp\6\1.jpg" />
+    <Compile Include="imgs\sp\6\1_thumbs.jpg" />
+    <Compile Include="imgs\sp\6\main.jpg" />
+    <Compile Include="imgs\sp\6\main_thumbs.jpg" />
+    <Compile Include="imgs\sp\7\1.jpg" />
+    <Compile Include="imgs\sp\7\1_thumbs.jpg" />
+    <Compile Include="imgs\sp\7\main.jpg" />
+    <Compile Include="imgs\sp\7\main_thumbs.jpg" />
+    <Compile Include="imgs\sp\8\1.jpg" />
+    <Compile Include="imgs\sp\8\1_thumbs.jpg" />
+    <Compile Include="imgs\sp\8\main.jpg" />
+    <Compile Include="imgs\sp\8\main_thumbs.jpg" />
+    <Compile Include="imgs\sp\9\1.jpg" />
+    <Compile Include="imgs\sp\9\1_thumbs.jpg" />
+    <Compile Include="imgs\sp\9\main.jpg" />
+    <Compile Include="imgs\sp\9\main_thumbs.jpg" />
+    <Compile Include="lib\db.php" />
+    <Compile Include="views\index\index.body.tpl" />
+    <Compile Include="views\productsByCat\productsByCat.body.tpl" />
+    <Compile Include="views\_layout.php" />
+    <Compile Include="index.php" />
+    <Compile Include="productsByCat.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="assets\bootstrap-3.3.7-dist\css" />
+    <Folder Include="assets\bootstrap-3.3.7-dist\fonts" />
+    <Folder Include="assets\bootstrap-3.3.7-dist\js" />
+    <Folder Include="assets\bootstrap-3.3.7-dist" />
+    <Folder Include="assets" />
+    <Folder Include="imgs\sp\1" />
+    <Folder Include="imgs\sp\10" />
+    <Folder Include="imgs\sp\11" />
+    <Folder Include="imgs\sp\12" />
+    <Folder Include="imgs\sp\13" />
+    <Folder Include="imgs\sp\14" />
+    <Folder Include="imgs\sp\15" />
+    <Folder Include="imgs\sp\16" />
+    <Folder Include="imgs\sp\17" />
+    <Folder Include="imgs\sp\18" />
+    <Folder Include="imgs\sp\19" />
+    <Folder Include="imgs\sp\2" />
+    <Folder Include="imgs\sp\20" />
+    <Folder Include="imgs\sp\21" />
+    <Folder Include="imgs\sp\22" />
+    <Folder Include="imgs\sp\23" />
+    <Folder Include="imgs\sp\24" />
+    <Folder Include="imgs\sp\25" />
+    <Folder Include="imgs\sp\26" />
+    <Folder Include="imgs\sp\27" />
+    <Folder Include="imgs\sp\28" />
+    <Folder Include="imgs\sp\29" />
+    <Folder Include="imgs\sp\3" />
+    <Folder Include="imgs\sp\30" />
+    <Folder Include="imgs\sp\4" />
+    <Folder Include="imgs\sp\5" />
+    <Folder Include="imgs\sp\6" />
+    <Folder Include="imgs\sp\7" />
+    <Folder Include="imgs\sp\8" />
+    <Folder Include="imgs\sp\9" />
+    <Folder Include="imgs\sp" />
+    <Folder Include="imgs" />
+    <Folder Include="lib" />
+    <Folder Include="views\index" />
+    <Folder Include="views\productsByCat" />
+    <Folder Include="views" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="composer.json" />
+  </ItemGroup>
+</Project>
