@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "doanweb", "..\..\..\..\..\..\Users\Mr.Son\Desktop\New folder\web1\doanweb\doanweb\doanweb.phpproj", "{CC0695B1-854A-4B12-A32A-FB70BC0BA51B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC0695B1-854A-4B12-A32A-FB70BC0BA51B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC0695B1-854A-4B12-A32A-FB70BC0BA51B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DCEF56F6-64BD-4CDA-93E2-DFB1E6C92040}
+	EndGlobalSection
+EndGlobal
